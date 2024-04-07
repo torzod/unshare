@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "shareware-multiplayer",
   "version": "${version}",
-  "name": "",
-  "description": "",
+  "name": "Shareware Multiplayer",
+  "description": "Re-adds the multiplayer button and disables demo mode on 3D Shareware v1.34",
   "authors": [
     "tildejustin"
   ],
   "contact": {
-    "homepage": "https://modrinth.com/mod/modid",
-    "sources": "https://github.com/tildejustin/modid",
-    "issues": "https://github.com/tildejustin/modid/issues"
+    "homepage": "https://modrinth.com/mod/shareware-multiplayer",
+    "sources": "https://github.com/tildejustin/shareware-multiplayer",
+    "issues": "https://github.com/tildejustin/shareware-multiplayer/issues"
   },
   "license": "MIT",
   "environment": "*",
   "mixins": [
-    "modid.mixins.json"
+    "shareware-multiplayer.mixins.json"
   ],
   "depends": {
     "minecraft": "*",
