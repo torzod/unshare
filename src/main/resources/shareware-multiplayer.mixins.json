@@ -3,7 +3,8 @@
   "package": "dev.tildejustin.shareware.mixin",
   "compatibilityLevel": "JAVA_8",
   "client": [
-    "MainMixin"
+    "MainMixin",
+    "MinecraftClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1
