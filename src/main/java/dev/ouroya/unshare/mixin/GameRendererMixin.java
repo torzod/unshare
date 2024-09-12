@@ -12,4 +12,8 @@ public class GameRendererMixin {
     private void render(GameRenderer renderer, float f, long l, boolean bl) {
 
     }
+    @Redirect(method = "render", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/render/GameRenderer;method_20280()V"))
+    private void dirtBorder(GameRenderer renderer, float f, long l, boolean bl) {
+
+    }
 }
