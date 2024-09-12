@@ -20,5 +20,10 @@
   "depends": {
     "minecraft": "1.14-alpha.19.13.shareware",
     "fabricloader": "*"
+  },
+  "entrypoints": {
+    "main": [
+      "dev.tildejustin.shareware.Unshade"
+    ]
   }
 }
