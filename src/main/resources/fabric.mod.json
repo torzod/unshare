@@ -1,29 +1,27 @@
 {
-  "schemaVersion": 1,
-  "id": "shareware-multiplayer",
-  "version": "${version}",
-  "name": "Shareware Multiplayer",
-  "description": "Re-adds the multiplayer button and disables demo mode on 3D Shareware v1.34",
-  "authors": [
-    "tildejustin"
-  ],
-  "contact": {
-    "homepage": "https://modrinth.com/mod/shareware-multiplayer",
-    "sources": "https://github.com/tildejustin/shareware-multiplayer",
-    "issues": "https://github.com/tildejustin/shareware-multiplayer/issues"
-  },
-  "license": "MIT",
-  "environment": "*",
-  "mixins": [
-    "shareware-multiplayer.mixins.json"
-  ],
-  "depends": {
-    "minecraft": "1.14-alpha.19.13.shareware",
-    "fabricloader": "*"
-  },
-  "entrypoints": {
-    "main": [
-      "dev.tildejustin.shareware.Unshade"
-    ]
-  }
+    "schemaVersion": 1,
+    "id": "unshare",
+    "version": "${version}",
+    "name": "Unshare",
+    "description": "RA mod for Minecraft 3D Shareware v1.34 with the goal of making the version more pleasant to play for extended periods of time.",
+    "authors": [
+        "tildejustin",
+        "ouroya",
+        "claiwe"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "environment": "*",
+    "mixins": [
+        "unshare.mixins.json"
+    ],
+    "depends": {
+        "minecraft": "1.14-alpha.19.13.shareware",
+        "fabricloader": "*"
+    },
+    "entrypoints": {
+        "main": [
+            "dev.ouroya.unshare.Unshade"
+        ]
+    }
 }

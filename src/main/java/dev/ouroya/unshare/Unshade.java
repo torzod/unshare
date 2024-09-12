@@ -1,16 +1,17 @@
-package dev.tildejustin.shareware;
+package dev.ouroya.unshare;
 
-import dev.tildejustin.shareware.util.ResourcePackUtil;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resource.ResourcePack;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import dev.ouroya.unshare.util.ResourcePackUtil;
+
 public class Unshade implements ModInitializer {
 
     public static Unshade INSTANCE;
     public static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "shareware-multiplayer";
+    public static final String MOD_ID = "unshare";
 
     public ResourcePack modPack;
 

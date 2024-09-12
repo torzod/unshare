@@ -1,4 +1,4 @@
-package dev.tildejustin.shareware.mixin;
+package dev.ouroya.unshare.mixin;
 
 import net.minecraft.client.render.GameRenderer;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,6 +1,5 @@
-package dev.tildejustin.shareware.util;
+package dev.ouroya.unshare.util;
 
-import dev.tildejustin.shareware.Unshade;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
 import net.minecraft.resource.DirectoryResourcePack;
@@ -8,6 +7,8 @@ import net.minecraft.resource.ResourcePack;
 
 import java.io.File;
 import java.nio.file.Path;
+
+import dev.ouroya.unshare.Unshade;
 
 public class ResourcePackUtil {
 

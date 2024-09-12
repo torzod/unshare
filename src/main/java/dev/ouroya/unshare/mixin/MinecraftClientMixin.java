@@ -1,6 +1,5 @@
-package dev.tildejustin.shareware.mixin;
+package dev.ouroya.unshare.mixin;
 
-import dev.tildejustin.shareware.Unshade;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.Screen;
 import net.minecraft.resource.ReloadableResourceManager;
@@ -10,6 +9,8 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+
+import dev.ouroya.unshare.Unshade;
 
 @Mixin(MinecraftClient.class)
 public abstract class MinecraftClientMixin {
