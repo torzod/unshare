@@ -8,6 +8,9 @@
         "ItemStackMixin",
         "GameRendererMixin"
     ],
+    "server": [
+        "MinecraftServerMixin"
+    ],
     "injectors": {
         "defaultRequire": 1
     }
