@@ -1,12 +1,13 @@
 {
-  "required": true,
-  "package": "dev.tildejustin.shareware.mixin",
-  "compatibilityLevel": "JAVA_8",
-  "client": [
-    "MainMixin",
-    "MinecraftClientMixin"
-  ],
-  "injectors": {
-    "defaultRequire": 1
-  }
+    "required": true,
+    "package": "dev.tildejustin.shareware.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "client": [
+        "MainMixin",
+        "MinecraftClientMixin",
+        "ItemStackMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
 }
